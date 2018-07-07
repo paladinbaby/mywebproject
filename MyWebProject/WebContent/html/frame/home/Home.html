@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+		maximum-scale=1.0, user-scalable=no" charset="UTF-8" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>商城首页demo</title>
+	
+	<link rel="stylesheet" href="html/scripts/common/bootstrap/css/bootstrap.min.css">
+	
+	<script src="html/scripts/common/jquery-3.3.1.min.js"></script>
+	<script src="html/scripts/common/bootstrap/js/bootstrap.min.js"></script>
+	<script src="html/scripts/appserv/appsubmit.js"></script>
+</head>
+<body>
+	<br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+			    <form class="bs-example bs-example-form" role="form">
+			        <div class="row">
+			            <div class="col-md-12 col-sm-12">
+			                <div class="input-group">
+			                    <input type="text" id="input_element" class="form-control">
+			                    <span class="input-group-btn">
+			                        <button class="btn btn-primary" onclick="ajaxFun()" type="button">Go!</button>
+			                    </span>
+			                </div>
+			            </div>
+			        </div>
+			    </form>
+		    </div>
+    	</div>
+    </div>
+    <br><br>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-6 col-sm-6">
+    			<title>姓名</title>
+    			<h2><span id="cust_name" style='display:none' class="label label-primary"></span></h2>
+    		</div>
+    		<div class="col-md-6 col-sm-6">
+    			<title>生日</title>
+    			<h2><span id="birthday" style='display:none' class="label label-primary"></span></h2>
+    		</div>
+    	</div>
+    </div>
+</body>
+</html>
